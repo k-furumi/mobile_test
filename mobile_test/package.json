@@ -6,11 +6,17 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "run": " npx cap run android",
+    "open": " npx cap open android"
+
   },
   "devDependencies": {
     "@capacitor/cli": "^4.7.1",
-    "nuxt": "^3.3.2"
+    "nuxt": "^3.3.2",
+    "sass": "^1.60.0",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vuetify": "^3.1.4"
   },
   "dependencies": {
     "@capacitor/android": "^4.7.1",
