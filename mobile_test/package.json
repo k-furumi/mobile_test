@@ -7,8 +7,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "run": " npx cap run android",
-    "open": " npx cap open android"
+    "droid": " npx cap run android",
+    "studio": " npx cap open android"
 
   },
   "devDependencies": {
