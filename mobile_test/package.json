@@ -9,6 +9,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@capacitor/cli": "^4.7.1",
     "nuxt": "^3.3.2"
+  },
+  "dependencies": {
+    "@capacitor/android": "^4.7.1",
+    "@capacitor/core": "^4.7.1",
+    "@capacitor/ios": "^4.7.1"
   }
 }
